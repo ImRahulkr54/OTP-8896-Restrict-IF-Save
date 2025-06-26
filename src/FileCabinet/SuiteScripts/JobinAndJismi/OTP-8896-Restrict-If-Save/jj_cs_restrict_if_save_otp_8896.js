@@ -68,6 +68,15 @@ define(["N/log", "N/record", "N/search"], /**
 
   }
 
+  /**
+   * 
+   * Defines the function to execute for restricting item fulfillment
+   * 
+   * @param {Record} newRec - Record that need to be fulfilled.
+   * @returns {boolean} Return true if record is valid
+   * 
+   */
+
   function restrictFulfillment(newRec) {
 
     try {
