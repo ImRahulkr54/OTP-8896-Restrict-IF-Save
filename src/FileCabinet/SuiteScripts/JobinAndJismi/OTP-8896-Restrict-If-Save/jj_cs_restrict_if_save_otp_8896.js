@@ -117,6 +117,10 @@ define(["N/log", "N/record", "N/search"], /**
             return true;
           } 
 
+          else {
+            alert('Insufficient Customer Deposit! Please add Balance & Try again...');
+          }
+
         }
       
       }
